@@ -65,7 +65,7 @@ function Home() {
 
                 <div className="mt-4 space-y-3">
                   {post.comments.map(comment => (
-                    <div key={comment.id} className="bg-gray-50 p-3 rounded-md">
+                    <div key={comment.id} className="p-3 rounded-md">
                       {comment.text}
                     </div>
                   ))}
